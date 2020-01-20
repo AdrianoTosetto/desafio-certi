@@ -1,0 +1,26 @@
+{
+  "name": "desafio_certi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava",
+    "testEndpoint": "mocha 'src/tests/testRoute.js'",
+    "start": "node src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^7.17.1",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^5.21.3"
+  },
+  "devDependencies": {
+    "ava": "^3.0.0",
+    "mocha": "^7.0.0",
+    "supertest": "^4.0.2",
+    "tape": "^4.13.0"
+  }
+}
