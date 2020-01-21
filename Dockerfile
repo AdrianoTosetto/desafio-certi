@@ -9,4 +9,7 @@ COPY . .
 
 EXPOSE 3000
 
+RUN npm test
+RUN npm run testEndpoint
+
 CMD ["node", "src/index.js"]

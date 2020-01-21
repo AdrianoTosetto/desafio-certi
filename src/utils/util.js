@@ -20,7 +20,6 @@ const allZeros = str => parseInt(str) === 0
 const removeSign = number => number[0] === '-' ? number.slice(1, number.length) : number
 
 const paddNumber = (number, paddingSize) => {
-    console.log('sign = ', removeSign(number))
     if (number[0] === '-')
         return `-${'0'.repeat(paddingSize)}${removeSign(number)}`
     return '0'.repeat(paddingSize) + number

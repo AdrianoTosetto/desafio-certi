@@ -1,5 +1,5 @@
 const { numberAsText } = require('../models/numbers')
-const { zip, paddNumber, nonZero, isZero, isOne, allZeros, removeSign } = require('../utils/util')
+const { zip, paddNumber, removeSign } = require('../utils/util')
 const ERRORS = Object.freeze({"NUMBER_INVALID_FORMAT": 1})
 
 module.exports = {
