@@ -8,7 +8,7 @@ Clone o repositório
 ```
 foo@bar:~$ git clone https://github.com/AdrianoTosetto/desafio-certi
 ```
-Dentro da raiz do projeto crie a imagem:
+Dentro da raiz do projeto crie a imagem:[^1]
 
 ```
 docker build -t tosetto/desafio-certi .
@@ -26,3 +26,10 @@ curl http://localhost:3000/:numero
 ```
 Ou acessar:
 [http://localhost:3000/:numero](http://localhost:3000/:numero)
+
+[^1]: Caso o `build` da imagem trave em algum ponto, basta interromper o `build` e remover a imagem com o comando:
+	```
+	docker image rm <id da imagem>
+	``` 
+	Depois de removida a imagem, precisa apenas repetir o comando de `build`
+
