@@ -24,13 +24,14 @@ Para testar:
 ```
 curl http://localhost:3000/:numero
 ```
+
+Ou acessar:
+[http://localhost:3000/:numero](http://localhost:3000/:numero)
+
 Exemplo:
 ```
 http://localhost:3000/999888777666555
 ```
-
-Ou acessar:
-[http://localhost:3000/:numero](http://localhost:3000/:numero)
 
 Retorno:
 ```
