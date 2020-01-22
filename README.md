@@ -24,6 +24,19 @@ Para testar:
 ```
 curl http://localhost:3000/:numero
 ```
+Exemplo:
+```
+http://localhost:3000/999888777666555
+```
+
+Retorno:
+```
+{
+  "ok": true,
+  "extenso": "novecentos e noventa e nove trilhões e oitocentos e oitenta e oito bilhões e setecentos e setenta e sete milhões e seiscentos e sessenta e seis mil e quinhentos e cinquenta e cinco"
+}
+```
+
 Ou acessar:
 [http://localhost:3000/:numero](http://localhost:3000/:numero)
 
