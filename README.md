@@ -32,4 +32,3 @@ Ou acessar:
 	docker image rm <id da imagem>
 	``` 
 	Depois de removida a imagem, precisa apenas repetir o comando de `build`
-
