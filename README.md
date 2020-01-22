@@ -29,6 +29,9 @@ Exemplo:
 http://localhost:3000/999888777666555
 ```
 
+Ou acessar:
+[http://localhost:3000/:numero](http://localhost:3000/:numero)
+
 Retorno:
 ```
 {
@@ -36,9 +39,6 @@ Retorno:
   "extenso": "novecentos e noventa e nove trilhões e oitocentos e oitenta e oito bilhões e setecentos e setenta e sete milhões e seiscentos e sessenta e seis mil e quinhentos e cinquenta e cinco"
 }
 ```
-
-Ou acessar:
-[http://localhost:3000/:numero](http://localhost:3000/:numero)
 
 <a name="myfootnote1">1</a>: Caso o `build` da imagem trave em algum ponto, basta interromper o `build` e remover a imagem com o comando:
 ```
